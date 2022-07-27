@@ -1,0 +1,356 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none!important;
+	font-family: filson;
+}
+
+@font-face{
+	font-family: filson;
+	src: url('../font/Filson.otf') format('opentype');
+}
+
+@font-face{
+	font-family: filson-regular;
+	src: url('../font/FilsonRegular.otf') format('opentype');
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header{
+  background-image: linear-gradient(to right, #005e9c , #00bcde);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.header-content{
+	z-index: 1;
+	position: relative;
+}
+
+/* Menu */
+.topo{
+	display: flex;
+	justify-content: center;
+	background-color: #fff;
+	padding: 10px 0;
+}
+
+.menu{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 83%;
+}
+
+.logo img{
+	width: 120px;
+} 
+
+.link-conteudo{
+	font-weight: bold;
+	font-family: 'Kanit', sans-serif;
+	font-size: 20px;
+}
+
+.link-conteudo a{
+	color: #000;
+}
+
+.link-conteudo a:hover{
+	color: #008ddc;
+}
+
+/* Textos banner */
+.banner{
+	display: flex;
+	justify-content: center;
+}
+
+.lado-esquerdo, .lado-direito{
+	width: 50%;
+}
+
+.lado-esquerdo{
+	display: flex;
+	flex-direction: column;
+}
+
+.lado-direito{
+	display: flex;
+}
+
+.textos-banner{
+	margin-top: 25%;
+}
+
+#imagem-responsiva{
+	display: none;
+}
+
+.header-content h1{
+	font-size: 45px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.header-content p{
+	font-size: 20px;
+	margin: 20px 0 25px;
+	color: #fff;
+	letter-spacing: 1px;
+	font-family: filson-regular;
+}
+
+/* Imagem banner */
+.img-banner{
+	margin-top: 21%;
+}
+
+.img-banner img{
+	width: 750px;
+}
+
+/* Botão banner */
+.botao{
+	padding: 12px;
+	border-radius: 8px;
+	font-weight: bold;
+	background-color: transparent;
+	border:2px solid #fff;
+	font-family: filson-regular;
+	color: #fff;
+}
+
+.botao:hover{
+	background-color: #fff;
+	color: linear-gradient(to right, blue, red);
+}
+
+/* Área sobre a empresa */
+#about-area{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#about-area h3{
+  font-weight: bold;
+}
+
+img:nth-child(2){
+	display: none;
+}
+
+.texto_sobre{
+  text-align: justify;
+  font-family: filson-regular;
+}
+
+.titulo{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.main-title{
+  color: #444;
+  margin: 0 0 15px 0;
+  font-size: 40px;
+  text-align: center;
+}
+
+.titulo p{
+	margin: auto;
+	border-top: 2px solid #444;
+	width: 15%;
+	margin-bottom: 50px;
+}
+
+.about-title{
+  font-size: 20px;
+  color: #444;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Seção destaques */
+#about-destaques{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+#about-destaques h3{
+	font-weight: bold;
+}
+
+.secao-destaques{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	font-size: 25px;
+	background-image: linear-gradient(to right, #009bcf, #0067b4);
+	color: #fff;
+	font-weight: bold;
+	height: 280px;
+}
+
+.destaques{
+	display: flex;
+	flex-direction: column;
+}
+
+.destaques img{
+	width: 80px;
+}
+
+.secao-destaques div:nth-child(1){
+	display: flex;
+	align-items: center;
+	border-right: 2px solid #fff;
+}
+
+.secao-destaques div:nth-child(2){
+	display: flex;
+	align-items: center;
+	border-right: 2px solid #fff;
+}
+
+.secao-destaques div:nth-child(3){
+	display: flex;
+	align-items: center;
+}
+
+.frase-destaque{
+	width: 100%;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+/* Seção comentários */
+#about-comentarios{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+#about-comentarios h3{
+  font-weight: bold;
+}
+
+.secao-comentarios{
+	display: flex;
+	justify-content: space-between;
+}
+
+.secao-comentarios img{
+	width: 130px;
+}
+
+.icon-avaliacao{
+	display: flex;
+	justify-content: center;
+}
+
+.comentario-pessoa{
+	text-align: center;
+	font-family: filson-regular;
+}
+
+.img-pessoa{
+	display: flex;
+	justify-content: center;
+}
+
+.comentario div:nth-child(2){
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.comentario div:nth-child(3){
+	font-style: italic;
+	text-align: justify;
+	margin-top: -5px;
+}
+
+.comentario img{
+	border-radius: 50%;
+}
+
+/* Rodapé */
+footer{
+	background-color: #000934;
+	height: 250px;
+}
+
+.rodape{
+	display: flex;
+	align-items: center;
+	height: 250px;
+}
+
+.logo-footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo-footer img{
+	width: 220px;
+}
+
+.redes-sociais{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #fff;
+}
+
+.redes-sociais p{
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}
+
+.icon-redes-sociais{
+	display: flex;
+}
+
+.icon-redes-sociais img{
+	width: 55px;
+	margin: 10px;
+}
+
+.facebook img{
+	width: 38px;
+}
+
+.whatsapp img{
+	width: 35px;
+}
+
+/* Informações desenvolvedor do site */
+.infor-criador{
+	display: flex;
+	justify-content: center;
+	background-color: #111;
+	color: #fff;
+	font-weight: bold;
+	padding: 20px 0;
+}
+
+.infor-criador a{
+	margin: 0 10px;
+	color: #ffff00;
+	font-weight: bold;
+}
+
+.infor-criador a:hover{
+	color: #ffff00;
+}
