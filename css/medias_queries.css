@@ -1,0 +1,626 @@
+@media only screen and (min-width: 991px) and (max-width: 1370px) {
+    .banner{
+        flex-direction: column;
+    }
+
+    .lado-esquerdo, .lado-direito{
+        width: 100%;
+    }
+
+    .lado-esquerdo{
+        justify-content: center;
+        margin-left: 50px;
+    }
+
+    .lado-direito{
+        justify-content: center;
+    }
+
+    .textos-banner{
+        margin-top: 20%;
+    }
+
+    .img-banner{
+        margin-top: 2%;
+    }
+
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 990px) {
+    .banner{
+        flex-direction: column;
+    }
+
+    .lado-esquerdo, .lado-direito{
+        width: 100%;
+    }
+
+    .lado-esquerdo{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .lado-direito{
+        justify-content: center;
+    }
+
+    .textos-banner{
+        text-align: center;
+        margin-top: 20%;
+    }
+
+    .img-banner{
+        margin-top: 2%;
+    }
+
+    .botao-banner{
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-banner{
+        display: flex;
+        justify-content: center;
+    }
+
+    img:nth-child(2){
+        display: block;
+        margin-top: 30px;
+    }
+
+    .secao-destaques{
+        font-size: 20px;
+    }
+}
+
+
+@media only screen and (min-width: 671px) and (max-width: 768px) {
+    .banner{
+        flex-direction: column;
+    }
+
+    .lado-esquerdo, .lado-direito{
+        width: 100%;
+    }
+
+    .lado-esquerdo{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .lado-direito{
+        justify-content: center;
+    }
+
+    .textos-banner{
+        text-align: center;
+        margin-top: 35%;
+    }
+
+    .img-banner{
+        margin-top: 2%;
+    }
+
+    .botao-banner{
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-banner{
+        display: flex;
+        justify-content: center;
+    }
+    
+    #img-aluno{
+        display: none;
+    }
+
+    img:nth-child(2){
+        display: block;
+        margin-top: 20px;
+    }
+
+    .about-title{
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .texto_sobre{
+        margin-top: 20px;
+    }
+
+    .secao-destaques{
+        font-size: 20px;
+    }
+}
+
+
+@media only screen and (min-width: 580px) and (max-width: 670px) {
+    .banner{
+        flex-direction: column;
+    }
+
+    .lado-esquerdo, .lado-direito{
+        width: 100%;
+    }
+
+    .lado-esquerdo{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .lado-direito{
+        justify-content: center;
+    }
+
+    .textos-banner{
+        text-align: center;
+        margin-top: 35%;
+    }
+
+    .img-banner{
+        margin-top: 5%;
+    }
+
+    .img-banner img{
+        width: 620px;
+    }
+
+    .botao-banner{
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-banner{
+        display: flex;
+        justify-content: center;
+    }
+    
+    #img-aluno{
+        display: none;
+    }
+
+    img:nth-child(2){
+        display: block;
+        margin-top: 10px;
+        width: 400px;
+    }
+
+    .texto_sobre{
+        margin-top: 20px;
+    }
+
+    #img-responsive{
+        margin: auto;
+    }
+
+    .about-title{
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .secao-destaques{
+        font-size: 18px;
+    }
+
+    .destaques img{
+        width: 60px;
+    }
+
+    .rodape{
+        flex-direction: column;
+    }
+
+    .logo-footer{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .logo-footer img{
+        width: 180px;
+    }
+
+    .redes-sociais p{
+        font-size: 18px;
+    }
+
+    .infor-criador{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 560px) and (max-width: 579px) {
+    .banner{
+        flex-direction: column;
+    }
+
+    .lado-esquerdo, .lado-direito{
+        width: 100%;
+    }
+
+    .lado-esquerdo{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .lado-direito{
+        justify-content: center;
+    }
+
+    .textos-banner{
+        text-align: center;
+        margin-top: 35%;
+    }
+
+    .img-banner{
+        margin-top: 5%;
+    }
+
+    .img-banner img{
+        width: 620px;
+    }
+
+    .botao-banner{
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-banner{
+        display: flex;
+        justify-content: center;
+    }
+    
+    #img-aluno{
+        display: none;
+    }
+
+    img:nth-child(2){
+        display: block;
+        margin-top: 20px;
+        width: 350px;
+    }
+
+    .texto_sobre{
+        margin-top: 20px;
+    }
+
+
+    .texto_sobre{
+        padding: 0 10px;
+    }
+
+    .diferenciais{
+        padding: 0 10px;
+    }
+
+    #img-responsive{
+        margin: auto;
+    }
+
+    .about-title{
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .secao-destaques{
+        font-size: 18px;
+    }
+
+    .destaques img{
+        width: 60px;
+    }
+
+    .rodape{
+        flex-direction: column;
+    }
+
+    .logo-footer{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .logo-footer img{
+        width: 180px;
+    }
+
+    .redes-sociais p{
+        font-size: 18px;
+    }
+
+    .infor-criador{
+        font-size: 12px;
+    }
+}
+
+
+@media only screen and (min-width: 401px) and (max-width: 559px) {
+    div .menu{
+        justify-content: center;
+        padding: 0 30px;
+    }
+
+    .link-conteudo{
+        display: none;
+    }
+
+    .banner{
+        flex-direction: column;
+    }
+
+    .lado-esquerdo, .lado-direito{
+        width: 100%;
+    }
+
+    .lado-esquerdo{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .lado-direito{
+        justify-content: center;
+    }
+
+    .textos-banner{
+        text-align: center;
+        margin-top: 35%;
+    }
+
+    .img-banner{
+        margin-top: 5%;
+    }
+
+    .img-banner img{
+        width: 420px;
+    }
+
+    .header-content h1{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .header-content p{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .img-banner{
+        margin-top: 40px;
+    }
+
+    .botao-banner{
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-banner{
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-title{
+        font-size: 30px;
+    }
+    
+    #img-aluno{
+        display: none;
+    }
+
+    img:nth-child(2){
+        display: block;
+        margin-top: 10px;
+        width: 350px;
+    }
+
+    .texto_sobre{
+        padding: 0 10px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    #img-responsive{
+        margin: auto;
+    }
+
+    .about-title{
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .secao-destaques{
+        font-size: 14px;
+    }
+
+    .destaques img{
+        width: 50px;
+    }
+
+    .secao-comentarios{
+        flex-direction: column;
+    }
+
+    .comentario{
+        margin-bottom: 50px;
+    }
+
+    .rodape{
+        flex-direction: column;
+        height: 210px;
+    }
+
+    .logo-footer{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .logo-footer img{
+        width: 130px;
+    }
+
+    .icon-redes-sociais img{
+        width: 45px;
+        margin: 10px;
+    }
+
+    .facebook img{
+        width: 30px;
+    }
+
+    .whatsapp img{
+        width: 28px;
+    }
+
+    .redes-sociais p{
+        font-size: 15px;
+    }
+
+    .infor-criador{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    div .menu{
+        justify-content: center;
+        padding: 0 30px;
+    }
+
+    .link-conteudo{
+        display: none;
+    }
+
+    .banner{
+        flex-direction: column;
+    }
+
+    .lado-esquerdo, .lado-direito{
+        width: 100%;
+    }
+
+    .lado-esquerdo{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .lado-direito{
+        justify-content: center;
+    }
+
+    .textos-banner{
+        text-align: center;
+        margin-top: 35%;
+    }
+
+    .img-banner{
+        margin-top: 5%;
+    }
+
+    .img-banner img{
+        width: 360px;
+    }
+
+    .header-content h1{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .header-content p{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .img-banner{
+        margin-top: 40px;
+    }
+
+    .botao-banner{
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-banner{
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-title{
+        font-size: 30px;
+    }
+    
+    #img-aluno{
+        display: none;
+    }
+
+    img:nth-child(2){
+        display: block;
+        margin-top: 10px;
+        width: 350px;
+    }
+
+    .texto_sobre{
+        padding: 0 10px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    #img-responsive{
+        margin: auto;
+    }
+
+    .about-title{
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .secao-destaques{
+        font-size: 14px;
+    }
+
+    .destaques img{
+        width: 50px;
+    }
+
+    .secao-comentarios{
+        flex-direction: column;
+    }
+
+    .comentario{
+        margin-bottom: 50px;
+    }
+
+    .rodape{
+        flex-direction: column;
+        height: 210px;
+    }
+
+    .logo-footer{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .logo-footer img{
+        width: 130px;
+    }
+
+    .icon-redes-sociais img{
+        width: 45px;
+        margin: 10px;
+    }
+
+    .facebook img{
+        width: 30px;
+    }
+
+    .whatsapp img{
+        width: 28px;
+    }
+
+    .redes-sociais p{
+        font-size: 15px;
+    }
+
+    .infor-criador{
+        font-size: 10px;
+    }
+}
+
